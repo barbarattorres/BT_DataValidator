@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: data-validator
+Version: 0.1.0
+Summary: A sophisticated tool for comprehensive data validation within pandas DataFrames.
+Home-page: https://github.com/yourusername/data_validator
+Author: Barbara Torres
+Author-email: barbaratt@icloud.com
+Project-URL: Bug Reports, https://github.com/yourusername/data_validator/issues
+Project-URL: Source, https://github.com/yourusername/data_validator/
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Data Validator
+
+Data Validator is a sophisticated Python package designed to perform comprehensive data validation within pandas DataFrames. This tool ensures data integrity and conformity by applying a set of predefined validation rules, making it an essential part of data preprocessing workflows.
+
+## Features
+
+- **Custom Validation Rules:** Supports flexible, user-defined rules for different data columns, including checks for data types, uniqueness, and range limitations.
+- **Extensive Data Checks:** Provides validations for data type consistency, numerical ranges, and correct formatting of strings such as emails.
+- **Error Reporting:** Aggregates and reports errors in a structured format, categorizing them by type and detailing issues found in each DataFrame column.
+- **Automation and Manual Control:** Allows both automatic validation upon instantiation and manual validation to fit into various stages of data processing pipelines.
+
+## Installation
+
+To install Data Validator, simply use pip:
+
+```bash
+pip install data_validator
