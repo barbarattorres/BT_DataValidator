@@ -16,6 +16,7 @@ To install Data Validator, use pip:
 
 ```bash
 pip install data_validator
+```
 
 ## Key Innovative Feature
 
